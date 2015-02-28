@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thingcount", "thingcount.vcxproj", "{123E5B86-3CF2-4DF7-8521-2DD4D7BC6A2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EA0188E0-1F4E-490D-BD2C-C85D12B0F1E2} = {EA0188E0-1F4E-490D-BD2C-C85D12B0F1E2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib.vcxproj", "{EA0188E0-1F4E-490D-BD2C-C85D12B0F1E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{123E5B86-3CF2-4DF7-8521-2DD4D7BC6A2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{123E5B86-3CF2-4DF7-8521-2DD4D7BC6A2A}.Debug|Win32.Build.0 = Debug|Win32
+		{123E5B86-3CF2-4DF7-8521-2DD4D7BC6A2A}.Release|Win32.ActiveCfg = Release|Win32
+		{123E5B86-3CF2-4DF7-8521-2DD4D7BC6A2A}.Release|Win32.Build.0 = Release|Win32
+		{EA0188E0-1F4E-490D-BD2C-C85D12B0F1E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA0188E0-1F4E-490D-BD2C-C85D12B0F1E2}.Debug|Win32.Build.0 = Debug|Win32
+		{EA0188E0-1F4E-490D-BD2C-C85D12B0F1E2}.Release|Win32.ActiveCfg = Release|Win32
+		{EA0188E0-1F4E-490D-BD2C-C85D12B0F1E2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

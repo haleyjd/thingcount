@@ -1,0 +1,11 @@
+vc2012/Debug/
+vc2012/Release/
+vc2012/*.opensdf
+vc2012/*.sdf
+vc2012/*.suo
+vc2012/*.user
+*.bak
+*.o
+*.pke
+*.str
+psxwadgen
