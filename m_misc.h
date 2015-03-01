@@ -48,6 +48,7 @@ char *M_Strupr(char *string);
 char *M_Strlwr(char *string);
 char *M_Itoa(int value, char *string, int radix);
 int   M_CountNumLines(const char *str);
+int   M_StrToNumLinear(const char **strings, int numstrings, const char *value);
 
 // Misc file routines
 // haleyjd: moved a number of these here from w_wad module.

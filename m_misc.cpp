@@ -272,6 +272,23 @@ int M_CountNumLines(const char *str)
    return numlines;
 }
 
+//
+// M_StrToNumLinear
+//
+// Looks through an array of strings until a case-insensitive match
+// is found, and then returns the index the match is found at. If no
+// match is found, the array size is returned.
+//
+int M_StrToNumLinear(const char **strings, int numstrings, const char *value)
+{
+   int index = 0;
+
+   while(index != numstrings && strcasecmp(strings[index], value))
+      ++index;
+
+   return index;
+}
+
 //=============================================================================
 //
 // Filename and Path Routines

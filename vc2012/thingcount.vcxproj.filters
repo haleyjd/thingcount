@@ -81,6 +81,18 @@
     <ClCompile Include="..\win32\i_opndir.cpp">
       <Filter>Source Files\win32</Filter>
     </ClCompile>
+    <ClCompile Include="..\w_levels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_things.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\p_thingtypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xl_scripts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\d_dehtbl.h">
@@ -189,6 +201,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\psnprintf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\w_levels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_things.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\p_thingtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xl_scripts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

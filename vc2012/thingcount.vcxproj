@@ -92,11 +92,15 @@
     <ClCompile Include="..\m_qstr.cpp" />
     <ClCompile Include="..\m_strcasestr.cpp" />
     <ClCompile Include="..\psnprintf.cpp" />
+    <ClCompile Include="..\p_things.cpp" />
+    <ClCompile Include="..\p_thingtypes.cpp" />
     <ClCompile Include="..\tables.cpp" />
     <ClCompile Include="..\win32\i_opndir.cpp" />
     <ClCompile Include="..\w_formats.cpp" />
+    <ClCompile Include="..\w_levels.cpp" />
     <ClCompile Include="..\w_wad.cpp" />
     <ClCompile Include="..\w_zip.cpp" />
+    <ClCompile Include="..\xl_scripts.cpp" />
     <ClCompile Include="..\z_native.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -129,11 +133,15 @@
     <ClInclude Include="..\m_structio.h" />
     <ClInclude Include="..\m_swap.h" />
     <ClInclude Include="..\psnprintf.h" />
+    <ClInclude Include="..\p_things.h" />
+    <ClInclude Include="..\p_thingtypes.h" />
     <ClInclude Include="..\tables.h" />
     <ClInclude Include="..\w_formats.h" />
     <ClInclude Include="..\w_iterator.h" />
+    <ClInclude Include="..\w_levels.h" />
     <ClInclude Include="..\w_wad.h" />
     <ClInclude Include="..\w_zip.h" />
+    <ClInclude Include="..\xl_scripts.h" />
     <ClInclude Include="..\z_auto.h" />
     <ClInclude Include="..\z_zone.h" />
   </ItemGroup>
