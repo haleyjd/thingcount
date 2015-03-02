@@ -8,4 +8,4 @@ vc2012/*.user
 *.o
 *.pke
 *.str
-psxwadgen
+/thingcount
